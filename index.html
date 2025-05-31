@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscila Campos - Psicóloga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="Imagens/Logo com nome.png" alt="Logo com nome" height="300">
+        <p>Psicóloga - Cuidando do seu bem-estar emocional</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="about">
+            <h2>Sobre a Priscila Campos</h2>
+            <p>Sou psicóloga dedicada a ajudar você a compreender melhor seus sentimentos, superar desafios e alcançar uma vida mais equilibrada. Com experiência em diversas áreas da psicologia, ofereço um atendimento acolhedor e personalizado para cada cliente.</p>
+        </section>
+
+        <section id="servicos" class="services">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Terapia individual</li>
+                <li>Psicoterapia online</li>
+                <li>Orientação vocacional</li>
+                <li>Psicoterapia de casal</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contato</h2>
+            <p>Quer agendar uma consulta ou tirar dúvidas? Entre em contato!</p>
+
+            <form action="https://formspree.io/f/myzjgdep" method="POST" class="contact-form">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="obrigado.html">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p><strong>Whatsapp:</strong><a href="https://api.whatsapp.com/message/WVS36O63MVC7G1?autoload=1&app_absent=0"> (11)96102-4719</a></p>
+            <p><strong>Email:</strong> psico.priscilacampos@gmail.com</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/psico.priscilacampos/"> psico.priscilacampos</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Psicóloga Priscila Campos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
